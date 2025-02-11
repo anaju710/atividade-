@@ -1,0 +1,75 @@
+#   Atividade Batch
+Os comandos Batch são usados para automatizar tarefas no Windows, através de scripts executados no Prompt de Comando (CMD). Eles permitem controlar arquivos, pastas, processos e realizar outras ações repetitivas.
+O Batch usa scripts para automatizar tarefas repetitivas, como mover arquivos, fazer backup, ou controlar processos. 
+
+##  comando mkdir
+O comando MKDIR é uma função básica do  sistema operacional Windows, que permite a criação de diretórios ou pastas.
+ex:mkdir "C:\pasta com espaços\novo_diretorio"
+
+## comando cd
+O comando cd (que significa "change directory", ou mudar diretório) ele permite alterar o diretório de trabalho atual para outro diretório especificado.
+Se você estiver em uma pasta, por exemplo, C:\Users\NomeDeUsuario cd, e tiver uma pasta chamada Projetos dentro dela, o comando muda para C:\Users\NomeDeUsuario\Projetos.
+
+## comando dir 
+listar os arquivos e diretórios dentro de uma pasta ou diretório especificado. Ele exibe informações detalhadas sobre os arquivos e pastas, como nomes, datas de criação/modificação e tamanhos
+ex:C:\Users\NomeDeUsuario dir, ele exibirá todos os itens presentes nesse diretório, incluindo data,hora 
+
+## comando rmdir 
+é usado no Prompt de Comando (CMD) do Windows para remover diretórios vazios. Quando você usa o rmdir, ele exclui uma pasta, mas a pasta precisa estar vazia. Se a pasta contiver arquivos ou subpastas, o comando rmdir não funcionará sem um parâmetro adicional.
+A opção /s faz com que o rmdir remova a pasta e todo o conteúdo dentro dela, incluindo subpastas e arquivos. Esse comando excluirá C:\PastaComConteudo e todos os arquivos e subpastas que ele contiver.
+
+## comandos echo 
+ Ele permite que os usuários exibam mensagens de texto na tela ou redirecionem essas mensagens para um arquivo
+ Para exibir uma mensagem na tela, basta digitar "ECHO" seguido do texto que deseja exibir. Por exemplo:
+
+
+ECHO Olá, mundo!
+
+Isso exibirá a mensagem "Olá, mundo!" no prompt de comando.
+
+O comando ECHO também pode ser usado para redirecionar mensagens para um arquivo. Por exemplo:
+
+
+ECHO Este é um exemplo de texto > arquivo.txt
+
+Isso criará um arquivo chamado "arquivo.txt" e escreverá a mensagem "Este é um exemplo de texto" dentro dele.
+
+## comando type 
+permite vizualiar o conteúdo de arquivos de texto diretamente no prompt de comando.
+Visualizar o conteúdo de um arquivo:
+Para visualizar o conteúdo de um arquivo de texto chamado "arquivo.txt", basta digitar o seguinte comando no prompt de comando:
+
+
+   type arquivo.txt
+
+Isso exibirá o conteúdo do arquivo diretamente no prompt.
+
+## comando rename 
+
+Com a capacidade de alterar rapidamente os nomes dos itens, o comando RENAME oferece flexibilidade e eficiência para os usuários.
+ex:REN nome_atual novo_nome
+
+Por exemplo, para renomear o arquivo "documento_antigo.txt" para "documento_novo.txt", use o comando:
+
+
+REN documento_antigo.txt documento_novo.txt
+
+## comando cls 
+limpar a tela do prompt de comando, removendo todo o texto anteriormente exibido. Essa função é especialmente útil em situações em que a tela está cheia de informações e é necessário começar com uma nova visualização limpa.
+ex:Para limpar a tela no prompt de comando, basta digitar "CLS" e pressionar Enter. Isso resultará em uma tela limpa, pronta para receber novos comandos.
+
+## comando move
+move arquivos e pastas de um lugar para o outro.
+Suponha que você tenha um arquivo chamado "documento.txt" em sua área de trabalho e deseje movê-lo para a pasta "Documentos". Abra o prompt de comando e digite o seguinte comando:
+
+
+move C:\Users\SeuUsuario\Desktop\documento.txt C:\Users\SeuUsuario\Documents
+
+Isso moverá o arquivo "documento.txt" da área de trabalho para a pasta "Documentos".
+
+## comando copy
+O comando COPY é uma ferramenta poderosa que permite copiar arquivos e diretórios de um local para outro no sistema
+COPY C:\Caminho\do\arquivo.txt D:\Caminho\de\destino\
+
+Neste exemplo, o arquivo "arquivo.txt" localizado em "C:\Caminho\do\" será copiado para "D:\Caminho\de\destino\". Certifique-se de substituir os caminhos pelos caminhos reais em seu sistema
+
